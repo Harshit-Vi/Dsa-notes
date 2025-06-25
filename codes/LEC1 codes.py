@@ -31,3 +31,9 @@ def fibonacci (prev1, prev2):
         return
 
     fibonacci(1,0)
+
+# Finding nth fibonacci number using recursion
+#           Formula : F(n) = F(n-1) + F(n-2)
+# The formula uses 0 based index ( means For example to generate 20 fibonacci numbers we must write F(19))
+
+
