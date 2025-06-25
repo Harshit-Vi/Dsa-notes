@@ -1,0 +1,17 @@
+///// [Fibonacci Numbers]
+
+The Fibonacci numbers are very useful for introducing algorithms, so before we continue, here is a short introduction to Fibonacci numbers.
+
+The Fibonacci numbers are named after a 13th century Italian mathematician known as Fibonacci.
+
+The two first Fibonacci numbers are 0 and 1, and the next Fibonacci number is always the sum of the two previous numbers, so we get 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+
+///// [Finding The nth Fibonacci Number Using Recursion]
+
+To find the nth Fibonacci number we can write code based on the mathematic formula for Fibonacci number n
+
+F(n)=F(n−1)+F(n−2)
+
+This just means that for example the 10th Fibonacci number is the sum of the 9th and 8th Fibonacci numbers.
+
+Note: This formula uses a 0-based index. This means that to generate the 20th Fibonacci number, we must write F(19)
