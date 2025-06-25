@@ -15,3 +15,8 @@ F(n)=F(n−1)+F(n−2)
 This just means that for example the 10th Fibonacci number is the sum of the 9th and 8th Fibonacci numbers.
 
 Note: This formula uses a 0-based index. This means that to generate the 20th Fibonacci number, we must write F(19)
+
+[Notice] :that this recursive method calls itself two times, not just one. 
+This makes a huge difference in how the program will actually run on our computer. 
+The number of calculations will explode when we increase the number of the Fibonacci number we want. 
+To be more precise, the number of function calls will double every time we increase the Fibonacci number we want by one.
