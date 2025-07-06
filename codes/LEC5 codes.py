@@ -25,4 +25,8 @@ for i in range(1,n):
         if my_array[j] > current_value:
             insert_index = j
             my_array[j+1] = my_array[j]
-            
+        else:
+            break
+    my_array[insert_index] = current_value
+
+print("Sorted array is :", my_array)
